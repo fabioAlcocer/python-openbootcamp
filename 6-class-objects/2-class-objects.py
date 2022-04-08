@@ -2,8 +2,7 @@ class Alumno:
     def inicializar(self,nombre,nota):
         self.nombre=nombre
         self.nota=nota
- 
- 
+        
     def imprimir(self):
       print("Nombre: ",self.nombre)
       print("Nota: ",self.nota)
